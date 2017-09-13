@@ -1,0 +1,9 @@
+div.rendered_html code {
+    font-family: monospace, monospace;
+    font-size: 11pt;
+    padding-top: 3px;
+    padding-left: 2px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 2px;
+}
