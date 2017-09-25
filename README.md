@@ -56,11 +56,13 @@ For more examples and ideas, visit:
 
 
 #### リポジトリのクローン
-任意の位置で実行してください
+任意の位置で実行してください  
 
 ```
 git clone https://github.com/chemo-wakate/tutorial-6th.git
 ```
+:bulb: Windows環境で `git` がインストールされていない場合は以下のページから `git` をインストールしてください  
+- https://git-for-windows.github.io/
 
 #### ハンズオン環境のダウンロード
 ファイルサイズが約2GBと大きいので注意してください
