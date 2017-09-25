@@ -94,7 +94,8 @@ Known labextensions:
         http://localhost:8888/?token=c0e5995458d0d57e88de3a726bd0a594d474c28831f093ef
 ```
 
-**ブラウザで確認した際のイメージ**
-
+##### ブラウザで確認した際のイメージ
 <img width="273" alt="2017-09-25 18 02 06" src="https://user-images.githubusercontent.com/7918702/30800676-b9e8e08a-a21b-11e7-8afe-8bd7c5295fcc.png">
+
+##### `chemo/` の中にこのリポジトリの内容が入っているのを確認できます
 <img width="335" alt="2017-09-25 18 02 19" src="https://user-images.githubusercontent.com/7918702/30800721-e576bbb4-a21b-11e7-85c6-b0f38ae5765c.png">
