@@ -13,13 +13,23 @@
 ご使用のOSに合わせて以下のドキュメントを参考にDockerをインストールします。  
 余裕のある方は続けてチュートリアルも実践してみるとより理解が深まります。
 
-**Windowsの方**
+#### Windowsの方
 - [Docker for Windows のインストール — Docker-docs-ja 1.13.RC ドキュメント](http://docs.docker.jp/windows/step_one.html)
 
-**Macの方**
+#### Windows10の方
+こちらからDocker for Windowsをインストールしてください  
+- [Docker Community Edition for Windows - Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+
+:warning: Windowsの場合はDockerを使用できないので [こちら](https://github.com/chemo-wakate/tutorial-FAQ#1-pcの権限などが理由でdockerをインストールできない場合)を参考に環境構築をお願いします  
+:warning: `Docker Quickstart Terminal` の起動の再、以下のメッセージが表示されて失敗する場合、`Docker toolbox` のインストール時に `Install VirtualBox with NDIS5 driver[default NDIS6]` にチェックを入れて再度インストールしてみてください
+```
+Looks like something went wrong... Press any key to continue...
+```
+
+#### Macの方
 - [Mac OS X に Docker Toolbox のインストール — Docker-docs-ja 17.06.Beta ドキュメント](http://docs.docker.jp/docker-for-mac/step_one.html)
 
-**それ以外のOSの場合**
+#### それ以外のOSの場合
 - 自力でなんとかできるはず:notes:
 
 #### インストールの確認
@@ -101,3 +111,7 @@ Known labextensions:
 
 ##### `chemo/` の中にこのリポジトリの内容が入っているのを確認できます
 <img width="335" alt="2017-09-25 18 02 19" src="https://user-images.githubusercontent.com/7918702/30800721-e576bbb4-a21b-11e7-85c6-b0f38ae5765c.png">
+
+##### localhostでアクセス出来ない場合
+Windowsで `Docker Quickstart Terminal` を使用してjupyterを起動した場合、 `http://localhost:8888` でうまくアクセス出来ない場合があります  
+その場合、 `http://192.168.99.100:8888` でアクセスを試してみてください
