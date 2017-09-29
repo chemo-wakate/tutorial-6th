@@ -20,7 +20,7 @@
 こちらからDocker for Windowsをインストールしてください  
 - [Docker Community Edition for Windows - Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
-:warning: Windowsの場合はDockerを使用できないので [こちら](https://github.com/chemo-wakate/tutorial-FAQ#1-pcの権限などが理由でdockerをインストールできない場合)を参考に環境構築をお願いします  
+:warning: Windows32bitの場合はDockerを使用できないので [こちら](https://github.com/chemo-wakate/tutorial-FAQ#1-pcの権限などが理由でdockerをインストールできない場合)を参考に環境構築をお願いします  
 :warning: `Docker Quickstart Terminal` の起動の再、以下のメッセージが表示されて失敗する場合、`Docker toolbox` のインストール時に `Install VirtualBox with NDIS5 driver[default NDIS6]` にチェックを入れて再度インストールしてみてください
 ```
 Looks like something went wrong... Press any key to continue...
